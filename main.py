@@ -48,7 +48,7 @@ with model_training:
     sel_col.text('Here is a list of features in my data:') 
     sel_col.write(taxi_data.columns)
     
-    input_feature = sel_col.text_input('which feature should be used as the input feature?','Pickup_location_code')
+    input_feature = sel_col.text_input('which feature should be used as the input feature?','pickup_location_code')
     
     #now we start training our models
     #the code in the if statement is done to accomodate the 'No limit' button.
